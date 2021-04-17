@@ -1,7 +1,6 @@
 <templateSet group="AMyTemplates">
-  <template name="*" value="*&#10; * @Description //TODO $end$&#10; * @Date $date$&#10; * @Param $param$&#10; * @return $return$&#10; **/" description="add method comments" toReformat="false" toShortenFQNames="true">
+  <template name="*" value="*&#10; * @Description //TODO $end$&#10; * @Param $param$&#10; * @return $return$&#10; **/" description="add method comments" toReformat="false" toShortenFQNames="true">
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
     <variable name="param" expression="methodParameters()" defaultValue="" alwaysStopAt="true" />
     <variable name="return" expression="methodReturnType()" defaultValue="" alwaysStopAt="true" />
     <context>
